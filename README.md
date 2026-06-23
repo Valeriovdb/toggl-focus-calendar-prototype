@@ -9,6 +9,10 @@ Live prototype:
 - https://toggl.reachable.city
 - Fallback: https://valeriovdb.github.io/toggl-focus-calendar-prototype/
 
+Presentation:
+
+- https://www.loom.com/share/ac98b905b8124c6d930d8d5b9ee2bb6f
+
 The prototype is a static HTML/CSS/JavaScript app in `prototype/`.
 
 To run locally:

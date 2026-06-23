@@ -343,7 +343,7 @@ For the prototype, I first defined the product logic and interaction requirement
 ## 14. Submission Package
 
 - Written case study: this document.
-- Loom walkthrough: `[Add public Loom link]`.
+- Loom walkthrough: [https://www.loom.com/share/ac98b905b8124c6d930d8d5b9ee2bb6f](https://www.loom.com/share/ac98b905b8124c6d930d8d5b9ee2bb6f).
 - Prototype: [https://toggl.reachable.city](https://toggl.reachable.city).
 - Fallback prototype URL: [https://valeriovdb.github.io/toggl-focus-calendar-prototype/](https://valeriovdb.github.io/toggl-focus-calendar-prototype/).
 - Source code: [https://github.com/Valeriovdb/toggl-focus-calendar-prototype](https://github.com/Valeriovdb/toggl-focus-calendar-prototype).
