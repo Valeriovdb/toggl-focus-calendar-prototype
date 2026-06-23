@@ -12,7 +12,9 @@ I did not choose to redesign reports, mobile capture, onboarding, or the full pl
 
 The prototype demonstrates a focused workflow: surface what needs attention, guide the user through review, clarify report readiness in the side panel, and update the calendar state once time is logged or assigned.
 
-Prototype: [prototype/index.html](prototype/index.html)
+Prototype: [https://toggl.reachable.city](https://toggl.reachable.city)  
+Fallback prototype URL: [https://valeriovdb.github.io/toggl-focus-calendar-prototype/](https://valeriovdb.github.io/toggl-focus-calendar-prototype/)  
+Source code: [https://github.com/Valeriovdb/toggl-focus-calendar-prototype](https://github.com/Valeriovdb/toggl-focus-calendar-prototype)
 
 ## 02. Assignment Focus and Personas
 
@@ -342,8 +344,9 @@ For the prototype, I first defined the product logic and interaction requirement
 
 - Written case study: this document.
 - Loom walkthrough: `[Add public Loom link]`.
-- Prototype: [prototype/index.html](prototype/index.html).
-- Source code: `prototype/index.html`, `prototype/styles.css`, and `prototype/app.js`.
+- Prototype: [https://toggl.reachable.city](https://toggl.reachable.city).
+- Fallback prototype URL: [https://valeriovdb.github.io/toggl-focus-calendar-prototype/](https://valeriovdb.github.io/toggl-focus-calendar-prototype/).
+- Source code: [https://github.com/Valeriovdb/toggl-focus-calendar-prototype](https://github.com/Valeriovdb/toggl-focus-calendar-prototype).
 
 To run the prototype locally:
 

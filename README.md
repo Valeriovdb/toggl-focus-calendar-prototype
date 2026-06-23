@@ -4,6 +4,11 @@ Frontend-only prototype for the Toggl Focus Senior Product Manager case study.
 
 ## Prototype
 
+Live prototype:
+
+- https://toggl.reachable.city
+- Fallback: https://valeriovdb.github.io/toggl-focus-calendar-prototype/
+
 The prototype is a static HTML/CSS/JavaScript app in `prototype/`.
 
 To run locally:
