@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggl Focus Calendar Review Prototype</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="rail">
+        <div class="brand-mark">2.0</div>
+        <button class="rail-icon active" aria-label="Timer">T</button>
+        <button class="rail-icon" aria-label="Team">M</button>
+        <button class="rail-icon" aria-label="Feedback">F</button>
+        <button class="rail-icon" aria-label="Help">?</button>
+      </aside>
+
+      <aside class="sidebar">
+        <div class="workspace">
+          <strong>Valeriovandenbroek...</strong>
+          <span>v</span>
+        </div>
+
+        <nav>
+          <p class="nav-label">Track</p>
+          <a class="nav-item active" href="#"><span></span>Timer <small id="sidebarTimer">35m 7s</small></a>
+          <a class="nav-item" href="#"><span></span>My activity</a>
+
+          <p class="nav-label">Analyze</p>
+          <a class="nav-item" href="#"><span></span>Reports</a>
+
+          <p class="nav-label">Plan</p>
+          <a class="nav-item" href="#"><span></span>Projects</a>
+          <a class="nav-item" href="#"><span></span>Tasks</a>
+          <a class="nav-item" href="#"><span></span>Timeline</a>
+        </nav>
+
+        <div class="trial-card">
+          <strong>Get started</strong>
+          <div class="trial-progress"><span></span></div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <h1>What are you working on?</h1>
+          </div>
+          <div class="timer-pill" id="globalTimer">
+            <span class="timer-dot"></span>
+            Product audit
+            <strong>35m 7s</strong>
+          </div>
+        </header>
+
+        <section class="toolbar">
+          <div class="week-control">
+            <button aria-label="Previous week">&lt;</button>
+            <strong>This week - W26</strong>
+            <button aria-label="Next week">&gt;</button>
+          </div>
+
+          <div class="status-legend" aria-label="Status legend">
+            <span><i class="legend-line logged"></i>Logged</span>
+            <span><i class="legend-line unlogged"></i>Unlogged</span>
+            <span><i class="legend-line running"></i>Running</span>
+            <span><i class="legend-line assignment"></i>Needs assignment</span>
+          </div>
+        </section>
+
+        <section class="intelligence" aria-label="Planning intelligence summary">
+          <div>
+            <p class="eyebrow">Planning intelligence</p>
+            <h2 id="summaryTitle">4 items need attention today</h2>
+            <p id="summaryBody">
+              2 past activities are not logged, 1 activity needs project assignment, and Mercedes Benz milestone is due in 3 days.
+            </p>
+          </div>
+          <button id="reviewNext">Review next</button>
+        </section>
+
+        <section class="calendar" aria-label="Weekly calendar">
+          <div class="time-column">
+            <div></div>
+            <span>9:00 AM</span>
+            <span>10:00 AM</span>
+            <span>11:00 AM</span>
+            <span>12:00 PM</span>
+            <span>1:00 PM</span>
+            <span>2:00 PM</span>
+            <span>3:00 PM</span>
+            <span>4:00 PM</span>
+            <span>5:00 PM</span>
+            <span>6:00 PM</span>
+          </div>
+          <div class="days" id="calendarDays"></div>
+        </section>
+
+        <section class="project-key" aria-label="Project color key">
+          <span>Project colors</span>
+          <strong><i class="legend-fill mercedes"></i>Mercedes Benz</strong>
+          <strong><i class="legend-fill asos"></i>Asos</strong>
+          <strong><i class="legend-fill personal"></i>Personal</strong>
+          <strong><i class="legend-fill unassigned"></i>Unassigned</strong>
+        </section>
+      </main>
+
+      <aside class="detail-panel" id="detailPanel" aria-live="polite"></aside>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

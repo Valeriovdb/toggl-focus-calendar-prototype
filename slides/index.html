@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Toggl Focus Loom Slides</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="deck">
+      <section class="slide slide-one" id="slide-1">
+        <header class="slide-header">
+          <div class="kicker">01 / Why this area</div>
+          <img class="logo" src="./assets/toggl-logo/download-toggl-logo/Toggl - Dark Purple.svg" alt="Toggl" />
+        </header>
+
+        <div class="split">
+          <div class="copy">
+            <h1>The calendar is where time intelligence breaks or becomes trustworthy.</h1>
+            <p class="lead">
+              Toggl Focus has the ingredients for time intelligence, but the current calendar experience does not make it clear enough what is planned, tracked, assigned, or report-ready.
+            </p>
+
+            <div class="persona-grid">
+              <div class="persona">
+                <span class="label">Freelancers</span>
+                <p>Risk missed billable time and weaker profitability signals.</p>
+              </div>
+              <div class="persona">
+                <span class="label">Embedded ICs</span>
+                <p>Risk weaker proof of work, scope control, and renewal evidence.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="evidence-card">
+            <div class="screen-wrap">
+              <img src="../screenshots/projects%20work/Untitled%201.jpg" alt="Current Toggl calendar screenshot" />
+              <div class="callout callout-one">Color and state logic are hard to parse</div>
+              <div class="callout callout-two">Timer context can feel disconnected</div>
+              <div class="callout callout-three">The data-quality loop is not obvious</div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="flow-footer">
+          <span>Planned work</span>
+          <span class="arrow">→</span>
+          <span>Actual work</span>
+          <span class="arrow">→</span>
+          <span>Logged time</span>
+          <span class="arrow">→</span>
+          <span>Reportable insight</span>
+        </footer>
+      </section>
+
+      <section class="slide slide-two" id="slide-2">
+        <header class="slide-header">
+          <div class="kicker">02 / Prioritization and prototype</div>
+          <img class="logo" src="./assets/toggl-logo/download-toggl-logo/Toggl - Dark Purple.svg" alt="Toggl" />
+        </header>
+
+        <div class="slide-title-row">
+          <h1>I focused upstream: review, repair, confirm.</h1>
+          <p>A better reports UI cannot fully solve the trust problem if the underlying time data is incomplete or unassigned.</p>
+        </div>
+
+        <div class="prioritize-layout">
+          <div class="ranking-panel">
+            <h2>Chosen focus</h2>
+            <div class="rank selected">
+              <span>1</span>
+              <strong>Calendar-based day review</strong>
+              <small>Highest leverage for recurring friction and data quality.</small>
+            </div>
+            <div class="rank">
+              <span>2</span>
+              <strong>Timer usability</strong>
+              <small>Important, but Toggl is already strong here.</small>
+            </div>
+            <div class="rank">
+              <span>3</span>
+              <strong>Reports</strong>
+              <small>Strategic, but downstream of data completeness.</small>
+            </div>
+
+            <div class="left-out">
+              <span class="label">Left out</span>
+              <p>Full reports redesign, mobile, onboarding, project setup, team capacity planning.</p>
+            </div>
+          </div>
+
+          <div class="workflow-panel">
+            <h2>Prototype workflow</h2>
+            <div class="workflow">
+              <div class="step">
+                <span>1</span>
+                <strong>Review next</strong>
+                <small>Planning intelligence highlights what needs attention.</small>
+              </div>
+              <div class="step">
+                <span>2</span>
+                <strong>Assign project/task</strong>
+                <small>Suggested only when confidence is high.</small>
+              </div>
+              <div class="step">
+                <span>3</span>
+                <strong>Log activity</strong>
+                <small>Past calendar work becomes reportable time.</small>
+              </div>
+              <div class="step">
+                <span>4</span>
+                <strong>Update state</strong>
+                <small>Calendar and attention summary reflect better data.</small>
+              </div>
+            </div>
+            <div class="prototype-shot">
+              <img src="../prototype/prototype-check-v6.png" alt="Prototype screenshot showing review panel" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide slide-three" id="slide-3">
+        <header class="slide-header">
+          <div class="kicker">03 / Tradeoffs, impact, measurement, AI</div>
+          <img class="logo" src="./assets/toggl-logo/download-toggl-logo/Toggl - Dark Purple.svg" alt="Toggl" />
+        </header>
+
+        <h1 class="solo-title">The prototype is intentionally narrow: enough to test the workflow logic, not a full production redesign.</h1>
+
+        <div class="four-grid">
+          <div class="info-block">
+            <h2>Tradeoffs</h2>
+            <ul>
+              <li>Depth over breadth: one workflow</li>
+              <li>Speed over fidelity: simulated frontend state</li>
+              <li>Trust over automation: conservative autosuggest</li>
+              <li>Desktop first: review needs context</li>
+            </ul>
+          </div>
+
+          <div class="info-block impact">
+            <h2>Expected impact</h2>
+            <ul>
+              <li>Fewer missed billable hours</li>
+              <li>Fewer unassigned entries</li>
+              <li>More trustworthy reports</li>
+              <li>Stronger week 2 / week 4 retention</li>
+            </ul>
+          </div>
+
+          <div class="info-block metrics">
+            <h2>Measurement</h2>
+            <ul>
+              <li><code>calendar_review_completed</code></li>
+              <li><code>% unlogged activities resolved</code></li>
+              <li><code>report_view_after_review</code></li>
+              <li><code>uncategorized_time_share</code></li>
+            </ul>
+          </div>
+
+          <div class="info-block ai">
+            <h2>AI usage</h2>
+            <ul>
+              <li>Research synthesis</li>
+              <li>Case structure</li>
+              <li>Frontend prototyping</li>
+              <li>Overrode AI on scope, priority, and trust decisions</li>
+            </ul>
+          </div>
+        </div>
+
+        <footer class="closing-line">
+          Make individual time data complete enough to trust before asking reports to do more.
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>

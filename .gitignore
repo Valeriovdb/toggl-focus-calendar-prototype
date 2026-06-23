@@ -1,0 +1,8 @@
+.DS_Store
+screenshots/
+prototype/prototype-check*.png
+slides/export/
+slides/assets/toggl-logo/__MACOSX/
+slides/assets/toggl-logo/**/*.png
+node_modules/
+.env

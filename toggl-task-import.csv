@@ -1,0 +1,31 @@
+Project Name,Task Name,Client Name,Duration (Hours),Tag,Billable
+EV Launch Campaign,Stakeholder kickoff and scope alignment,Mercedes Benz,1.5,Meetings,Yes
+EV Launch Campaign,Competitor messaging review,Mercedes Benz,2.5,Research,Yes
+EV Launch Campaign,Campaign timeline planning,Mercedes Benz,3,Planning,Yes
+EV Launch Campaign,Creative brief draft,Mercedes Benz,2,Strategy,Yes
+EV Launch Campaign,Weekly client status meeting,Mercedes Benz,1,Meetings,Yes
+Dealer Portal Optimization,User journey audit,Mercedes Benz,3.5,Research,Yes
+Dealer Portal Optimization,Analytics review and friction mapping,Mercedes Benz,2,Analysis,Yes
+Dealer Portal Optimization,Feature prioritization workshop prep,Mercedes Benz,1.5,Planning,Yes
+Dealer Portal Optimization,Workshop facilitation,Mercedes Benz,2,Meetings,Yes
+Dealer Portal Optimization,Follow-up notes and action plan,Mercedes Benz,1,Admin,Yes
+Autonomous Services Discovery,Customer interview synthesis,Mercedes Benz,4,Research,Yes
+Autonomous Services Discovery,Opportunity sizing,Mercedes Benz,3,Strategy,Yes
+Autonomous Services Discovery,Internal sync with engineering lead,Mercedes Benz,1,Collaboration,Yes
+Autonomous Services Discovery,Assumption mapping,Mercedes Benz,2,Planning,Yes
+Autonomous Services Discovery,Executive summary preparation,Mercedes Benz,2.5,Reporting,Yes
+Checkout Conversion Sprint,Checkout funnel review,Asos,2.5,Analysis,Yes
+Checkout Conversion Sprint,Mobile checkout usability notes,Asos,3,Research,Yes
+Checkout Conversion Sprint,A/B test hypothesis writing,Asos,2,Experimentation,Yes
+Checkout Conversion Sprint,Design critique with UX team,Asos,1.5,Collaboration,Yes
+Checkout Conversion Sprint,Experiment brief finalization,Asos,1,Strategy,Yes
+Returns Experience Review,Returns policy benchmark,Asos,2,Research,Yes
+Returns Experience Review,Customer support ticket theme analysis,Asos,3,Analysis,Yes
+Returns Experience Review,Journey map update,Asos,2.5,UX,Yes
+Returns Experience Review,Client review meeting,Asos,1,Meetings,Yes
+Returns Experience Review,Recommendations write-up,Asos,2,Reporting,Yes
+Personalization Roadmap,Merchandising stakeholder interviews,Asos,3,Research,Yes
+Personalization Roadmap,Roadmap option framing,Asos,2.5,Strategy,Yes
+Personalization Roadmap,Impact vs effort scoring,Asos,2,Prioritization,Yes
+Personalization Roadmap,Non-billable learning review,Asos,1,Learning,No
+Personalization Roadmap,Roadmap presentation polish,Asos,1.5,Reporting,Yes
